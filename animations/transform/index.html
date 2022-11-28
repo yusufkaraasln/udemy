@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+  </head>
+
+  <style>
+    body {
+       display: flex;
+      align-items: center;
+      /*justify-content: left; */
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    button {
+      /* height: 100vh; */
+      height: 300px;
+      width: 300px;
+      background-color: blueviolet;
+      transition: 1s;
+    }
+
+    button:focus{
+        /* transform: translateX(-300%); */
+        /* transform: rotate(10turn); */
+        /* transform: rotateY(2turn); */
+        /* transform: skew(90deg); */
+        transform: translateX(100px) scale(1.2) translateY(-100px) ;
+        
+     
+    }
+
+  </style>
+
+  <body>
+    <button></button>
+  </body>
+</html>
