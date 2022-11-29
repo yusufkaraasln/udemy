@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form İşlemleri</title>
+  </head>
+  <body>
+
+
+    <form action="12_div_id_class.html" method="POST">
+        
+        <fieldset>
+                <legend>Kullanıcı Detayları</legend>
+                <label for="isim">Yazar:</label>
+        <input id="isim" type="text">
+        <br><br>
+
+
+
+            <label for="textarea">İçerik:</label>
+            <br>
+            
+            <textarea   name="" id="textarea" rows="10" cols="30" ></textarea>
+
+
+        <br><br>
+        <label for="fakulte">Fakülte:</label>
+        <input id="fakulte" type="text">
+        <BR></BR>
+        <label for="fakulteler">Fakülteler</label>
+        <select name="fakulteler" id="fakulteler">
+            <option selected value="">Seçiniz</option>
+            <option value="">Mühendislik</option>
+            <option value="">Tıp</option>
+            <option value="">Diş</option>
+            <option value="">MYO</option>
+        </select>
+
+
+        </fieldset>
+
+
+        <br>
+        <br>
+       
+        <fieldset>
+            <legend>Cinsiyet Seçimi</legend>
+            <label for="erkek">Erkek</label>
+            <input id="erkek" name="cinsiyet" type="radio">
+            <label  for="kadin">Kadın</label>
+            <input id="kadin" name="cinsiyet" type="radio">
+            <label  for="none">Belirtmek İstemiyorum</label>
+            <input id="none" name="cinsiyet" type="radio">
+    
+
+        </fieldset>
+
+
+        <br><br><br>
+        <fieldset>
+            <legend>Aksiyonlar</legend>
+            <button  >Gönder</button>
+        <button type="reset">Sil</button>
+
+
+
+        </fieldset>
+
+
+
+
+    </form>
+
+
+
+  </body>
+</html>
